@@ -1,0 +1,1 @@
+Este é um projeto simples de gerenciamento de locação de veículos, desenvolvido com HTML, CSS e JavaScript. Ele permite criar, editar, excluir e visualizar informações de locatários, condutores e suas informações relacionadas.
