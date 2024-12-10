@@ -1,0 +1,152 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a.active, header nav ul li a:hover {
+    background-color: #007bff;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+form {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input {
+    flex: 2;
+    padding: 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+button.search {
+    background-color: #444;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button.search:hover {
+    background-color: #007bff;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#novo {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#salvar {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#excluir {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#cancelar {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #2e2e2e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #252525;
+}
+
+table tr:hover {
+    background-color: #444;
+}
